@@ -1,0 +1,120 @@
+.side-bar{
+  height: 100vh;
+  width: 20%;
+  color: white;
+  position: fixed;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+#headd{
+  padding-top: 80px;
+}
+h1{
+  text-align: left; 
+  margin-top: -20%; 
+  margin-left:-47%;
+}
+hr{
+  width: 150vh;
+  margin-left: -45%;
+}
+.icon{
+  padding: 8px 10px;
+}
+.col-auto{
+  margin-top: 2%;
+}
+.navbar-toggler-icon {
+  background-color: none;
+  border-radius: 10%;
+}
+.outer{
+  width: 35%;
+  height: 40%;
+  top: 25%;
+  left: 38%;
+  position: absolute;  
+}
+.btn{  
+  width: 100%;
+  height: 100%;
+}
+.btn:hover{
+  opacity: 80%;
+}
+.container{
+  position: relative;
+}
+.g-3{
+  margin-top: 25%;
+}
+.forgot{
+  text-align: center;
+}
+.forgot:hover{
+  cursor: pointer;
+}
+@media screen and (max-width: 750px){
+  .side-bar{
+    height: 100vh;
+    color: white;
+    display: none;
+  }
+  .outer{
+    width: 80%;
+    height: 60%;
+    top: 15%;
+    left: 8%;
+    position: absolute;   
+  }
+  .container{
+    position: relative;
+  }
+  #headd{
+    padding-top: 6px;
+  } 
+  h1{
+      margin-left: -8%;
+      margin-top: -5%;
+  }
+}
+@media screen and (min-width: 750px) {
+  .navbar-toggler-icon {
+      column-gap: 0%;
+    }
+  .navbar-toggler {
+    display: none;
+    margin-left: 20%;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .side-bar {
+    height: 100vh;
+    color: white;
+    margin-top: 4.9%;
+  }
+  .outer{
+    width: 40%;
+    height: 50%;
+    top: 25%;
+    left: 40%;
+    position: absolute;   
+  }
+  .container{
+    position: relative;
+  }
+  #headd {
+    padding-top: 6px;
+  } 
+  hr{
+      width: 100vh;
+  }
+  .g-3{
+      margin-top: 23%;
+      margin-left: 0%;
+      width: 115%;
+  }
+}  
+

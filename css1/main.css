@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+}
+.headd{
+    background-image: url('../admin/img/hostel.jpg'); 
+    height: 100vh; 
+    width:100wh; 
+    background-position: center;
+    background-size: cover;
+}
+.box1, .box2, .box3{
+    width: 50vh;
+    height: 30vh;
+    margin-left : 8%;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 5%;
+}
+.box1, .box2{
+    float: left;
+}
+.box3{
+    float: right;
+    clear: none;
+    margin-right: 5%;
+}
+h4{
+    padding-top: 20%;
+    padding-left: 3%;
+    font-size: 60px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    color: black;
+    font-size: 10vh;
+    padding-top: 8%;
+    padding-left: 23%;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 600px){
+    .box1, .box2, .box3{
+        width: 40vh;
+        height: 40vh;
+        margin-left: 3%;
+    }
+    h4{
+        font-size: 35px;
+    }
+    h1{
+        font-size: 6vh;
+        padding-top: 8%;
+        padding-left: 18%;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    .box1, .box2, .box3{
+        width: 40vh;
+        height: 30vh;
+        margin-left: 5%;
+    }
+    h4{
+        font-size: 45px;
+    }
+    h1{
+        font-size: 9vh;
+        padding-top: 8%;
+        padding-left: 18%;
+    }
+}
